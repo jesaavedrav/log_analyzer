@@ -1,0 +1,35 @@
+{
+    "error_logs": {
+        "Connection": [
+            "Could not connect to: {configuration}",
+            "Invalid configuration: {configuration}",
+            "Connection setup failed to context {context}!",
+            "Failed commiting read session on queue {queue_name}",
+            "Sending failed to {queue_name}!",
+            "Error while receiving from {queue_name}",
+            "Error while receiving from {queue_name} The node will stop.",
+            "Rollback failed"
+        ],
+        "File": [
+            "Invalid file format!",
+            "Error reading bytes message >>> {message}",
+            "Error reading file content (file = {file_name})",
+            "Unknown message type!!!"
+        ],
+        "Control": [
+            "START request will be ignored for node [{node}] which has a pending start request, control point [{control_point}]",
+            "Error retrieving participant data from form",
+            "Received null participant data (id) for validating",
+            "Received invalid participant for validating"
+        ]
+    },
+    "warning_logs": {
+        "Configuration": [
+            "Failed parsing log message size limit ({value}). Will default to none!",
+            "Ignoring message size limit ({value}). Cannot be smaller than 1000. Will default to none!",
+            "Failed parsing minimum commit ({value}). Will default to {default_value}",
+            "Ignoring message size limit ({value}). Cannot be smaller than 1 or greater than 100. Will default to 1",
+            "Ignoring message mininum time commit ({value}). Will default to {default_value}"
+        ]
+    }
+} 

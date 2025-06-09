@@ -1,0 +1,28 @@
+{
+    "log_patterns_file": "config/log_patterns.json",
+    "visualization": {
+        "colors": {
+            "error": "#ff6b6b",
+            "warning": "#ffd93d"
+        },
+        "titles": {
+            "error_distribution": "Error Distribution by Category",
+            "severity_comparison": "Message Comparison by Severity Level",
+            "detailed_analysis": "Detailed Analysis by Category and Severity",
+            "error_histogram": "Error Message Frequency Histogram",
+            "warning_histogram": "Warning Message Frequency Histogram"
+        },
+        "labels": {
+            "severity": "Severity Level",
+            "message_count": "Message Count",
+            "error_message": "Error Message",
+            "warning_message": "Warning Message",
+            "frequency": "Frequency"
+        }
+    },
+    "output": {
+        "save_plots": true,
+        "output_dir": "output",
+        "formats": ["html", "png"]
+    }
+} 
