@@ -17,10 +17,7 @@
             "Unknown message type!!!"
         ],
         "Control": [
-            "START request will be ignored for node [{node}] which has a pending start request, control point [{control_point}]",
-            "Error retrieving participant data from form",
-            "Received null participant data (id) for validating",
-            "Received invalid participant for validating"
+            "START request will be ignored for node [{node}] which has a pending start request, control point"
         ]
     },
     "warning_logs": {
